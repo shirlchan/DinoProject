@@ -57,8 +57,8 @@ def forest():
     if f=="give up":
         end()
 def end(): 
-    print("The velociraptor wanted a chase but now your boring it and it leaves. ")
-    g=input("You keep walking and you find the time machine. Do you want to go" + '"back to the future"'+ " or "+'"explore more"\n')
+    print("The velociraptor wanted a chase but now you're boring it and it leaves. ")
+    g=input("You keep walking and you find the time machine. Do you want to go " + '"back to the future"'+ " or "+'"explore more"\n')
     if g=="back to the future":
         print("After "+name+" returns to the future,"+name+" becomes the world leading expert on dinosaurs.")
         print("THE END")
@@ -72,64 +72,4 @@ def tryAgain():
     if want == "yes":
         print("Hello "+ name)
         center()
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 center()
